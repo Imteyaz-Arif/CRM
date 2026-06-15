@@ -1,14 +1,14 @@
-# AI Marketing CRM 🎯
+# AI B2C Marketing CRM 🎯
 
-**🚀 Live Application:** *crm3712.vercel.app*
+**🚀 Live Application:** https://crm3712.vercel.app
 
-An advanced, AI-powered marketing application that evaluates your customer database and generates highly targeted marketing campaigns. It uses Google's Gemini 3.1 Flash Lite model to instantly provide AI-driven audience segmentation, draft hyper-personalized marketing copy, and simulate live campaign dispatching across multiple channels.
+An AI-powered real-time B2C marketing CRM. Uses NLP and AI to generate targeted audience segments, dynamically draft personalized marketing campaign and simulate live campaign delivery tracking. Also has an built-in brand specific AI chatbot to interact with the database. Built with React, Vite, Node.js, Express, PostgreSQL, and Google Gemini.
 
 ## 📖 How to Use the Service
 1. **Access the App**: Click the Live Application link above.
 2. **Generate an Audience**: Navigate to the "Segments" tab and describe your target audience in plain English (e.g., "Find female shoppers who bought winter coats").
 3. **Orchestrate a Campaign**: Navigate to the "Campaigns" tab, select your audience, and choose your delivery channel (WhatsApp, Email, etc.).
-4. **Auto-Draft Copy**: Use the AI Auto-Draft feature to instantly generate personalized messaging based on the selected audience and customer profile.
+4. **Auto-Draft Messages**: Use the AI Auto-Draft feature to instantly generate personalized messaging based on the selected audience and customer profile.
 5. **Launch & Monitor**: Click Launch and immediately view the live deployment feed on your main Dashboard to monitor pending, sent, and failed messages in real-time.
 
 ## ✨ Features
@@ -20,7 +20,7 @@ An advanced, AI-powered marketing application that evaluates your customer datab
 ## 🛠️ Technology Stack
 - **Frontend Architecture**: React, Vite, Tailwind CSS, Recharts
 - **Backend Application**: Node.js, Express, TypeScript
-- **AI Integration**: Google GenAI SDK (`gemini-3.1-flash-lite`)
+- **AI Integration**: Google GenAI SDK
 - **Database**: PostgreSQL (NeonDB)
 
 ---
