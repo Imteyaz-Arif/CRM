@@ -121,8 +121,14 @@ const localEngine = {
     checkItem('jacket', 'Jacket');
     checkItem('dress', 'Dress');
     checkItem('denim', 'Denim');
-    checkItem('jean', 'Denim');
+    checkItem('jean', 'Jeans');
+    checkItem('jeans', 'Jeans');
     checkItem('shirt', 'Shirt');
+    checkItem('leather', 'Leather');
+    checkItem('sneaker', 'Sneaker');
+    checkItem('sneakers', 'Sneaker');
+    checkItem('hoodie', 'Hoodie');
+    checkItem('belt', 'Belt');
     checkItem('ethnic', 'Ethnic');
 
     if (conditions.length === 0) return "1=1"; // default to all if no clear rules
